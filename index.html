@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+</head>
+<body>
+  <form onsubmit="" method="get">
+  <label>Nome: </label><input type="text" name="name"/><br>
+  <label>Cargo: </label>
+  <select name="role" multiple>
+    <option value="">Selecione o cargo</option>
+    <option value="Administrativo">Administrativo</option>
+    <option value="gerente">Gerente</option>
+    <option value="diretor">Diretor</option>
+    <option selected value="presidente">Presidente</option>
+  </select>
+  <br>
+  <label>Assunto</label><input type="text" name="subject"/><br>
+
+  <button type="submit">Enviar</button>
+
+  </form>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- SELECT E SEUS TIPOS -->
+
+
+
+
+<!-- BUTTON E SEUS TIPOS -->
+
+<!-- reset - limpar os campos dos form 
+ 
+submit - enviar
+
+<form onsubmit="" method="get">
+  <label>Nome: </label><input type="text" name="name"/><br>
+  <label>Idade: </label><input type="number" name="age"/><br>
+  <label>Password</label><input type="password" name="password"/><br>
+
+  <button type="submit">Enviar</button>
+
+  </form> -->
+
+
+
+
+
+<!-- CHECKBOX E RADIO -->
+
+
+<!-- <form method="post">
+  <h3>Você selecionou: Pizza de Calabresa</h3>
+  <p>Quais Opcionais você deseja?</p>
+  <input type="checkbox" disabled 
+  name="opcional[]" value="queijo"> + queijo <br>
+  <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br>
+  <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+  <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br>
+  <p>Borda Recheada?</p>
+  <input type="radio" name="borda" value="sim">Sim<br>
+  <input type="radio" name="borda" value="nao">Não<br>
+  <p>Bebida</p>
+  <input type="radio" name="bebida" value="suco">Suco<br>
+  <input type="radio" name="bebida" value="refrigerante">Refrigerante<br>
+  <input type="radio" name="bebida" value="agua">Água<br>
+  <input type="radio" name="bebida" value="nenhum">Nenhum<br><br>
+  
+  <button type="submit">Enviar pedido</button>
+  </form> -->
+
+<!-- CHECKBOX
+adicionar no name="nomequalquer" nesse ex: usaremos opcional[] para que na hora que enviar para o servidor, o back receber qual adicional foi selecionado, AS [] MOSTRA COMO MULTIPLAS COISAS FORAM SELECIONDAS E PASSA QUAIS AS OPÇÕES ESCOLHIDAS e sempre colocar medo "post", no ex: antes estava get e conforme mencionado anteriormente ao enviar o form aparece na url, e se deixar assim, no servidor somente vai aparecer a ultima opção selecionada.
+
+ -->
+
+
+
+
+
+
+
+<!-- TAG INPUT E SEUS TIPOS -->
+
+<!-- <form>
+  <label>Text: </label><input type="text" /><br>
+  <label>Number: </label><input type="number" min="0" step="" max="100" /><br>
+  <label>Range: </label><input type="range" min="0" max="100" value="10" /><br>
+  <label>Color: </label><input type="color" /><br>
+  <label>E-mail: </label><input type="email" /><br>
+  <label>Url: </label><input type="url" /><br>
+  <label>Date: </label><input type="date" /><br>
+  <label>Week: </label><input type="week" /><br>
+  <label>Month: </label><input type="month" /><br>
+  <label>Checkbox: </label><input type="checkbox" /><input type="checkbox" /><br>
+  <label>Radio: </label><input type="radio" name="aceita"/><input type="radio" name="aceita"/><br>
+  <label>Hidden: </label><input type="hidden" /><br>
+  <label>File: </label><input type="file" multiple /><br>
+  <label>Search: </label><input type="search" /><br>
+  <label>Button: </label><input type="button" value="Enviar" />
+</form> -->
+
+<!-- step="5" - coloca de quanto em qnt aumentar -->
+
+<!-- <button>Enviar</button><br> -->
+<!-- Duas formas de representar o button, mas nesse caso qnd quiser utilizar botão, melhor usar BUTTON -->
+
+<!-- hidden - campo invisivel -->
+
+
+
+
+
+<!-- TAG FORM -->
+
+ <!-- <form name="signup" onsubmit="alert('Enviei o Formulário')"  autocomplete="on" target="_blank" method="post" action="#"> 
+    Nome: <input type="text" name="name"/><br>
+    Idade: <input type="number" name="age"/><br>
+    Senha: <input type="password" name="password"/><br>
+    <button type="submit">Enviar</button>
+  </form> -->
+
+<!-- <form> method="get" - não é recomendado utilizar o get, pois assim que preenche o form e aperta em enviar, os dados aparece sua na url 
+Recomendado utlizar o POST  
+  -->
+
+
+
+
+
+<!-- <blockquote>Document</blockquote>  -->
+<!-- citação - citar uma frase de alguém -->
+  
+<!-- <u>Document</u>   -->
+<!-- underline/sublinhar -->
+
+  <!-- <mark>Document</mark>  -->
+  <!-- marca-texto -->
+  <!-- <sub>Document</sub>   -->
+  <!-- acima da linha -->
+<!--  
+ <a href="http://dio.me" title="Clique aqui e confira">dio</a>
+ 
+  -->
